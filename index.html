@@ -12,8 +12,9 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('elizabeth_brochure_bg.jpg') no-repeat center center fixed;
+      background: url('elizabeth_brochure_bg.jpg') no-repeat center center;
       background-size: cover;
+      background-attachment: scroll;
       font-family: Arial, sans-serif;
       color: #fff;
       display: flex;
@@ -40,57 +41,4 @@
     }
 
     p {
-      font-size: 1.2rem;
-      margin: 1rem 0 2rem;
-      color: #eee;
-    }
-
-    .button-container {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    a.button {
-      background: #4CAF50;
-      color: white;
-      padding: 0.8rem 1.5rem;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 1rem;
-      transition: background 0.3s ease;
-    }
-
-    a.button:hover {
-      background: #45a049;
-    }
-
-    /* --- Responsive adjustments --- */
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.8rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-
-      a.button {
-        font-size: 0.9rem;
-        padding: 0.7rem 1.2rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="content">
-    <h1>Mrs. Elizabeth Agbekornu</h1>
-    <p>A tribute to the life, strength, and grace of Mrs. Elizabeth Agbekornu — a woman whose legacy of love, wisdom, and compassion continues to inspire all who knew her.</p>
-    <div class="button-container">
-      <a class="button" href="https://www.dropbox.com/scl/fi/cn994k20mtoturry31s2e/MRS-ELIZABETH-AGBEKORNU-Biography-book.pdf?rlkey=xze02wc0ef551ectq0iwwtp0c&st=ac59bl8y&dl=0" download>Download PDF</a>
-      <a class="button" href="https://www.dropbox.com/scl/fi/cn994k20mtoturry31s2e/MRS-ELIZABETH-AGBEKORNU-Biography-book.pdf?rlkey=xze02wc0ef551ectq0iwwtp0c&st=ac59bl8y&dl=0" target="_blank">View PDF</a>
-    </div>
-  </div>
-</body>
-</html>
+      font-size: 1
